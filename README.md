@@ -3,6 +3,7 @@ Site desenvolvido em HTML, CSS e JavaScript.
 
 Comandos úteis em HTML:
 
+<!--
 <b> - negrito
 	porém substituir por
 	<strong>
@@ -20,11 +21,14 @@ Comandos úteis em HTML:
 <ol> - lista ordenada
 <li> - itens da lista
 <img src=""> - imagem
+-->
 
-<!-- --> - comentário
+<!--
 type="circle" - bolinha vazia para listas
 type="square" - quadrado
 type="disc" - bolinha cheia
 type="A" - A. B. C
 type="I" - I. II. III.
+-->
+
 
