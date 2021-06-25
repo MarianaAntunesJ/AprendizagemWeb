@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Fontes e Cores</title>
+    <meta charset="utf-8" />
+    <style type="text/css">
+
+        div{
+            font-size: 60px;
+        }
+        .formatacao {
+            color: #B22A08;
+            font-size: 2em;
+            font-family: impact, serif, sans-serif;
+            text-decoration: line-through;
+            /*
+            px -> tamanho fixo;
+            % -> tamanho relativo;
+            em -> tamanho relativo ao container pai;
+            */
+        }
+
+        .overline{
+            text-decoration: overline;
+        }
+
+        .texto{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 15px;
+        }
+
+        #titulo{
+            font-size: 30px;
+            font-weight: bold;
+            font-style: italic;
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <p class="formatacao">Conteúdo</p>
+        <p class="overline">Conteúdo</p>
+        <p class="texto" id="titulo">Conteúdo</p>
+        <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum eros mollis dui egestas cursus. Maecenas mollis sem sed tellus euismod scelerisque et eget ante. Cras lacinia, velit non semper pellentesque, felis elit ullamcorper orci, ac rutrum neque tortor nec nibh. Aenean diam metus, cursus euismod ipsum eu, tempus vehicula dolor. Nam in ex elit. Aliquam erat volutpat. Quisque viverra ipsum a felis luctus, sit amet vulputate leo fringilla. Proin non dolor id tortor finibus vehicula at ut massa. Maecenas congue venenatis mi quis pretium.</p>
+    </div>
+</body>
+
+</html>
