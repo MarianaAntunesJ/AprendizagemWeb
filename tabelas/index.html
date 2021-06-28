@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade03</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <style>
+        .principal {
+            color: red;
+        }
+
+        .codigo {
+            color: green;
+        }
+
+        .produto {
+            color: blue;
+        }
+
+        .preco {
+            color: purple;
+        }
+
+        #principal {
+            background: whitesmoke;
+            color: black;
+        }
+    </style>
+</head>
+
+<body onload="getSum()">
+
+    <tr>
+        <td align="right">
+            <a href="/index.html">Home</a> |
+        </td>
+    </tr>
+    <br><br>
+
+    <br />
+    <h1>Tabela 1</h1>
+    <table id="table1">
+        <tr>
+            <th>No.</th>
+            <th>Nome Completo</th>
+            <th>Cargo</th>
+            <th>Salario</th>
+            <th>Tipo</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Satya Nadella</td>
+            <td>CEO Microsoft</td>
+            <td id="elem1">$ 10000</td>
+            <td>Membro</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jeff Bezos</td>
+            <td>Fundador Amazon</td>
+            <td id="elem2">$ 12000</td>
+            <td rowspan="3">Fundador</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Larry Page</td>
+            <td>Fundador Google</td>
+            <td id="elem3">$ 11000</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Mark Zuckerberg</td>
+            <td>Fundador Facebook</td>
+            <td id="elem4">$ 13000</td>
+        </tr>
+        <tr>
+            <td colspan="3">Total:</td>
+            <td id="total"></td>
+        </tr>
+    </table>
+    <br />
+
+    <br />
+    <h1>Tabela 2</h1>
+    <table>
+        <tr>
+            <th rowspan="2"></th>
+            <th colspan="2">Média.</th>
+            <th rowspan="2">Porcentagem</th>
+        </tr>
+        <tr>
+            <td>Altura</td>
+            <td>Peso</td>
+        </tr>
+        <tr>
+            <td>Homens</td>
+            <td>1,71</td>
+            <td>80</td>
+            <td>57%</td>
+        </tr>
+        <tr>
+            <td>Mlheres</td>
+            <td>1,60</td>
+            <td>60</td>
+            <td>43%</td>
+        </tr>
+    </table>
+    <br />
+
+    <br />
+    <h1>Tabela 3</h1>
+    <table id="table3">
+        <tr>
+            <th>I</th>
+            <th>II</th>
+            <th>III</th>
+            <th>IV</th>
+            <th>V</th>
+            <th>VII</th>
+            <th>VIII</th>
+        </tr>
+        <tr>
+            <td bgcolor="green">H</td>
+            <td></td>
+            <td colspan="3" rowspan="3" valign="top">Tabela Periódica</td>
+            <td></td>
+            <td bgcolor="yellow">He</td>
+        </tr>
+        <tr>
+            <td>Li</td>
+            <td>Be</td>
+            <td>B</td>
+            <td bgcolor="yellow">Ne</td>
+        </tr>
+        <tr>
+            <td>Na</td>
+            <td>Me</td>
+            <td>Al</td>
+            <td bgcolor="yellow">Ar</td>
+        </tr>
+        <tr>
+            <td>K</td>
+            <td>Ca</td>
+            <td>Sc</td>
+            <td>Ti</td>
+            <td>V</td>
+            <td>Ga</td>
+            <td bgcolor="yellow">Kr</td>
+        </tr>
+    </table>
+    <br />
+
+    <table border="2" width="100%" id="principal">
+        <tr>
+            <th class="codigo">Código</th>
+            <th class="produto">Produto</th>
+            <th class="preco">Preço</th>
+        </tr>
+        <tr>
+            <td class="codigo">001</td>
+            <td class="produto">Notebook</td>
+            <td class="preco">R$2.500,99</td>
+        </tr>
+        <tr>
+            <td class="codigo">002</td>
+            <td class="produto">Tablet</td>
+            <td class="preco">R$999,99</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Desconto</td>
+            <td colspan="2">cupom 01 - R$10,00</td>
+        </tr>
+        <tr>
+            <td colspan="2">cupom 02 - R$12,00</td>
+        </tr>
+        <tr>
+            <td>Total:</td>
+            <td colspan="2">R$3.478,98</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

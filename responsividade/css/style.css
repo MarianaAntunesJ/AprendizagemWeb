@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    height: auto;
+    max-width: 100%;
+}
+
+.container{
+    margin: 0 auto;
+    width: 67.5%;
+}
+
+h1{
+    font-size: 2em;
+}
+
+header{
+    background-color: goldenrod;
+    padding: 20px;
+}
+
+.conteudo{
+    background-color: green;
+    margin: 1.5% 0;
+}
+
+.conteudo-principal{
+    float: left;
+    width: 62%;
+}
+
+.artigo-principal{
+    background-color: gold;
+    margin: 4.2% 0;
+}
+
+.texto{
+    margin: 1%  0;
+}
+
+.artigo-ultimo-conteudo{
+    background-color: greenyellow;
+    float: left;
+    margin: 2.5%  2.5%  2.5%  0;
+    width: 47%;
+}
+
+.artigo-ultimo-conteudo .texto{
+    margin:  1.7%;
+}
+
+aside{
+    background-color: #f0f0f0;
+    float: right;
+    padding: 1%;
+    width: 34%;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    background-color: #f9f9f9;
+    float: left;
+    margin: 4.6%;
+    outline: 3px solid #dedede;
+    text-align: center;
+    width: 40%;
+}
+
+nav a{
+    display: block;
+    padding: 7.6%;
+    text-decoration: none;
+}
+
+footer{
+    background-color: indianred;
+    clear: both;
+    font-size: 0.75em;
+    margin: 1.5% 0;
+    padding:  1.5%;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+@media all and(max-width: 320px){
+    nav li{
+        float: none;
+        width: auto;
+    }
+}
+
+@media all and(max-width: 640px){
+    .conteudo-principal{
+        float: none;
+        width: auto;
+    }
+    
+    .artigo-ultimo-conteudo{
+        float: none;
+        width: auto;
+    }
+
+    aside{
+        float: none;
+        width: auto;
+    }
+}

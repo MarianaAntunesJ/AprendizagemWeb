@@ -1,0 +1,115 @@
+*, *::before, *::after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    background-color: #ccc;
+}
+
+#container{
+    width: 100%;
+    max-width: 1200px;
+    min-width: 760px;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+h1, h2{
+    color: #036;
+}
+
+.topo{
+    background-color: #036;
+    padding: 5px 20px;
+}
+
+.topo h1{
+    font-size: 36px;
+    text-align: left;
+}
+
+.topo a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.topo h2{
+    font-size: 20px;
+    text-align: left;
+    margin: 2px 0 4px 0;
+    color: aliceblue;
+}
+
+.principal{
+    width: 80%;
+    float: right;
+    padding: 20px;
+}
+
+section h2{
+    margin: 15px 0 10px 0;
+}
+
+.auxiliar{
+    width: 20%;
+    float: left;
+}
+
+.rodape{
+    background-color: #036;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+    clear: both;
+}
+
+nav h2{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    background-color: #ff6e19;
+    color: #fff;
+    display: block;
+    margin-bottom: 1px;
+    line-height: 2;
+    padding-left: 10px;
+    text-transform: capitalize;
+}
+
+nav a:hover{
+    background-color: #036;
+}
+
+.auxiliar-parceiros{
+    margin: 30px 0;
+    text-align: center;
+}
+
+.auxiliar-parceiros li{
+    margin-bottom: 3px;
+    background-color: #eee;
+}
+
+.auxiliar-parceiros a{
+    text-decoration: none;
+    padding: 8px 0;
+    color: #333;
+    display: block;
+}
+
+img{
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+}
